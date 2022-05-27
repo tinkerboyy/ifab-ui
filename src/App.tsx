@@ -1,10 +1,16 @@
-import './App.css';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Theme from 'Theme';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Welcome to IFAB</header>
-    </div>
+    <Theme>
+      <CssBaseline />
+      <Box>
+        <Typography>Welcome to IFAB</Typography>
+      </Box>
+    </Theme>
   );
 }
 
